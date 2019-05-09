@@ -1,27 +1,30 @@
-# AngualrApp
+# BASIC-ANGULAR-QUIZ-APP 
+---
+### This application is a storage of quiz questions in localstorage using angular 2+ ♦️ ...
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+## What technologies that i used ?
+ - Node JS ( Run-Time Environment ) 10.15.0
+ - Angular 7.2.0
+ - Bootstrap 4.3.1
+ - Local Storage 
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Setup prerequists
+ - you have to install NodeJS as it's the service and also to use its package manager npm.
 
-## Code scaffolding
+## How to run the application
+ - Clone or download files in some place.
+ - Open CMD or Terminal in the root folder you just cloned.
+ - Write this command ``` npm i ``` to install all dependencies then run the app with this command ``` npm run start ```.
+ - Open the app in the browser wih port ``` 4200 ```. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Demo 
+![quick-demo](src/assets/demo/demo.gif)
+  
+#### License
+---
+[MIT](https://choosealicense.com/licenses/mit/)  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+###### (= first angular app =)
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
