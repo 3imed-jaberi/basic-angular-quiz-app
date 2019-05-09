@@ -1,0 +1,17 @@
+<div class="question" >
+  <div class="card">
+     <div class="card-header">
+        <h6> 
+          {{ index+1 }} - {{ question.text }} 
+          &nbsp;&nbsp;&nbsp;
+          <button class="btn btn-link" (click)="question.hide = !question.hide "> Show </button> 
+          |
+          <button href="#" class="btn btn-link" (click)="removeQuestion(question)"> Delete </button> 
+        </h6>
+      </div>
+     <div class="card-block" style="background-color:grey" [hidden]="question.hide">
+          <h6 class="card-text" style="padding:25px;color: white"> - {{ question.answer }} </h6>
+     </div>
+  </div>
+  <br/>
+</div>
